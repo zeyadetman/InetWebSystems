@@ -503,3 +503,23 @@ img.leftar.rightarrr {
     padding-top: 0px;
     padding-bottom: 45px;
 }
+
+input::-webkit-input-placeholder {
+					
+    font-family: DINNextLTArabic-Light;
+					}
+					
+					input:-moz-placeholder { /* Firefox 18- */
+					
+    font-family: DINNextLTArabic-Light; 
+					}
+					
+					input::-moz-placeholder {  /* Firefox 19+ */
+					
+    font-family: DINNextLTArabic-Light; 
+					}
+					
+					input:-ms-input-placeholder {  
+					
+    font-family: DINNextLTArabic-Light;
+					}
