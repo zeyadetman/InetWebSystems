@@ -1,0 +1,37 @@
+.header {
+    width: 100%;
+}
+
+.recentlist {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0;
+    align-items: center;
+}
+
+img.leftar {
+    display: none;
+}
+
+img.banner-img {
+    width: 500px;
+}
+
+.dirimgright {
+    float: right;
+    margin: 35px;
+}
+
+.sponsorlogo:nth-child(2) {
+    display: none;
+}
+
+.sponsorlogo:nth-child(3) {
+    display: none;
+}
+
+.sponsors {
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+}
