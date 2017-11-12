@@ -523,3 +523,21 @@ input::-webkit-input-placeholder {
 					
     font-family: DINNextLTArabic-Light;
 					}
+
+textarea::-webkit-input-placeholder {
+    font-family: DINNextLTArabic-Light;
+}
+
+textarea:-moz-placeholder {
+    /* Firefox 18- */
+    font-family: DINNextLTArabic-Light;
+}
+
+textarea::-moz-placeholder {
+    /* Firefox 19+ */
+    font-family: DINNextLTArabic-Light;
+}
+
+textarea:-ms-input-placeholder {
+    font-family: DINNextLTArabic-Light;
+}
